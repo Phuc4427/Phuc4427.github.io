@@ -1,0 +1,82 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 140px;
+    background-color: rgba(95, 55, 3, 0.836)
+}
+
+.up{
+    width: 80%;
+    height: 70xp;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+.up ul{
+    list-style: none;
+    margin-top: 0px;
+}
+.up ul li{
+    display: inline-table;
+    padding:10px;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(224, 228, 6)
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+.logo a {
+    padding-right: 90px;
+} 
+.down{
+    height: 50px;
+    width: 80%;
+}
+.search{
+    height: 30px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 900px;
+    border-radius: 8px;
+    width: 400px;
+    background:rgba(167, 142, 2, 0.452);
+    float: left;
+    min-height: 450px;
+}
+.search input{
+    width: 300px;
+    height: 25px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.search button img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+.search table{
+    width: 10px;
+    height: 10px;
+    font-size: 15px;
+    
+}
+.content{
+    width: 1000px;
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-column-gap: 50px;
+    grid-row-gap: 150px;
+}
+.item img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
